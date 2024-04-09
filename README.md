@@ -1,1 +1,2 @@
 # aulapd
+Exercícios das aulas 
