@@ -1,0 +1,13 @@
+/* Color Theme Swatches in Hex */
+/*
+.destaque { color: #348888; }
+.Blue-Teal-Monochromatic-2-hex { color: #22BABB; }
+.blackground { color: #9EF8EE; }
+.Blue-Teal-Monochromatic-4-hex { color: #FA7F08; }
+.principal { color: #F24405; }
+*/
+
+html {
+    background:  #9EF8EE;
+    color: #F24405;
+}
