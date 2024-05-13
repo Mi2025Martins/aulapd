@@ -155,7 +155,7 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
     padding-right: 2%
 }
 
-#design-selection {
+.design-selection {
     position: absolute;
     top: 480px;
     left: 62%;
@@ -245,7 +245,7 @@ a:hover {
 .main p:first-of-type:first-letter {
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
-    float: left;
+    float:left;
 }
 
 .design-selection li {
