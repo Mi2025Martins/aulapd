@@ -1,0 +1,56 @@
+/* Color Theme Swatches in Hex */
+/*
+.Moda-1-hex { color: #0B0B0D; }
+.Moda-2-hex { color: #021373; }
+.Moda-3-hex { color: #044BD9; }
+.Moda-4-hex { color: #0460D9; }
+.Moda-5-hex { color: #D0D7D9; }
+*/
+html {
+    background: #D0D7D9;
+    color: #021373;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+}
+h1,h2,h3 {
+    color: #0B0B0D;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+h1,h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+img {
+    width: 400px;
+}
+
+footer {
+    background: #021373;
+    color: #D0D7D9;
+
+}
+
+nav {
+    background: #021373;
+    color: #D0D7D9;
+  
+}
+
+#cabeçalho ul {
+   text-decoration: none;
+}
