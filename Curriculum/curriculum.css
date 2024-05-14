@@ -1,10 +1,10 @@
 /* Color Theme Swatches in Hex */
 /*
-.Moda-1-hex { color: #0B0B0D; }
-.Moda-2-hex { color: #021373; }
+.cor-destaque { color: #0B0B0D; }
+.cor-principal { color: #021373; }
 .Moda-3-hex { color: #044BD9; }
 .Moda-4-hex { color: #0460D9; }
-.Moda-5-hex { color: #D0D7D9; }
+.cor-secundária { color: #D0D7D9; }
 */
 html {
     
@@ -17,19 +17,19 @@ html {
 body {
     max-width: 80%;
     margin: auto;
-    background-color: #D0D7D9;
-    
+    background-color: #D0D7D9;   
 }
 
 header, main {
     padding: 0 20px;
 }
 
-h1 {
+h1, h2 {
     color: #0B0B0D;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center; 
-}    
+}
+
 
 h1 {
     font-size: 1.8rem;
@@ -37,19 +37,19 @@ h1 {
 
 h2 {
     font-size: 1.4rem;
-    color: #0B0B0D;
 }
 
 h3 {
     font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
+#foto img {
     width: 400px;
 }
 
-footer {
-    background: #021373;
+#link {
+    background-color:  #021373;
     color: #D0D7D9;
 }
 
@@ -70,9 +70,19 @@ a {
 }
 
 .lista-navegaçao > li {
-    margin: 30px;   
+    margin: 20px;   
 }
 
+.lista-navegaçao-footer {
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    width: 92%;
+}
+
+.lista-navegaçao-footer > li {
+    margin: 20px;   
+}
 #experiências h2 {
     display: flex;
     justify-content: center;  
@@ -83,7 +93,7 @@ a {
     justify-content: center; 
 }
 
-.teste {
+.cabeça {
     display:flex;
     flex-direction:row;
     align-items: center;
@@ -91,5 +101,42 @@ a {
     flex-wrap: wrap;   
 }
 
+#link img {
+    width: 20px;
+}
 
-    
+
+@media screen and (max-width: 768px) {
+    .lista-navegaçao {
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+    }
+
+    .lista-navegaçao > li {
+        margin: 10px;   
+    }
+
+    #foto img {
+        width:100%;
+        align-self: auto;
+    }
+
+    .lista-navegaçao-footer {
+        display:flex;
+        justify-content:center;
+        list-style: none;
+        width: 78%;
+        
+    }
+
+    .lista-navegaçao-footer > li {
+        margin: 10px;   
+    }
+
+    #educação, #certificaçoes, #experiencias, #redes-sociais {
+       margin-top: 15%;
+    }
+
+    #
+}
