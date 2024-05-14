@@ -83,6 +83,7 @@ a {
 .lista-navegaçao-footer > li {
     margin: 20px;   
 }
+
 #experiências h2 {
     display: flex;
     justify-content: center;  
@@ -101,20 +102,22 @@ a {
     flex-wrap: wrap;   
 }
 
-#link img {
-    width: 20px;
-}
-
 
 @media screen and (max-width: 768px) {
     .lista-navegaçao {
         display: flex;
         flex-direction: column;
-        margin: 10%;
+        width: auto;
+        height:max-content; 
+    }
+
+    .lista-navegaçao > ul {
+        margin: 0px;
     }
 
     .lista-navegaçao > li {
-        margin: 10px;   
+        max-width:min-content;  
+        margin: 0.5em; 
     }
 
     #foto img {
@@ -126,8 +129,7 @@ a {
         display:flex;
         justify-content:center;
         list-style: none;
-        width: 78%;
-        
+        width: 78%;    
     }
 
     .lista-navegaçao-footer > li {
@@ -138,5 +140,22 @@ a {
        margin-top: 15%;
     }
 
-    #
+    body {
+        max-width: 100%;
+        margin: auto;
+        background-color: #D0D7D9;   
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+        padding-block-start: 1em;
+        padding-block-end: 1em;
+    }
 }
